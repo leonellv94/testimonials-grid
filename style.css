@@ -71,7 +71,7 @@ article {
 
 .header {
     display: grid;
-    grid-template-columns: 45px 92%;
+    grid-template-columns: 45px minmax(100px, 1fr);
     padding: 10px 0px;
     align-items: center;
 }
@@ -115,6 +115,7 @@ article {
 
 .head2 {
     opacity: 0.7;
+    margin: 0px;
 }
 .p2 {
     opacity: 0.7;
@@ -234,6 +235,7 @@ article {
 
 .head2 {
     opacity: 0.7;
+    margin: 0px;
 }
 .p2 {
     opacity: 0.7;
